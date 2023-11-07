@@ -187,112 +187,6 @@ body{
 }
 
 
-
-#cont
-{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-#cont #con2
-{
-    width:var(--wide);
-    height:var(--wide);
-    transform-style:preserve-3d;
-    animation:rotate 9s infinite;
-    position:relative;
-
-}
-
-#cont #con2 div
-{
-    position:absolute;
-    width:var(--wide);
-    height:var(--wide);
-
-}
-
-#cont #con2 div:nth-child(1)
-{
-    transform:translateZ(var(--wide2));
-    background:url("https://drive.google.com/uc?export=view&id=12AbXEpB8YFX7vE8ivb_kIfYOOPUd0Bht");
-    background-size:cover;
-
-}
-
-#cont #con2 div:nth-child(2)
-{
-    transform:rotateX(90deg) translateZ(var(--wide2)); background:url("https://drive.google.com/uc?export=view&id=129xOxmFIeoTCFCCh_Kv3wGwppTgMZxDT");
-    background-size:cover;
-
-}
-
-#cont #con2 div:nth-child(3)
-{   
-    transform:rotateX(270deg)  translateZ(var(--wide2));
-    background:url("https://drive.google.com/uc?export=view&id=12BfrvobkL1ol3pvUH3gouKJMr5qGx7B1");
-    background-size:cover;
-
-}
-
-#cont #con2 div:nth-child(4)
-{   
-    transform:rotateY(180deg) translateZ(var(--wide2));
-    background:url("https://drive.google.com/uc?export=view&id=125uJyi1jeK-r20Tz2W1sEhLZvF1rF5U3");
-    background-size:cover;
-
-}
-
-#cont #con2 div:nth-child(5)
-{   
-    transform: rotateY(90deg)  translateZ(var(--wide2));
-    background:url("https://drive.google.com/uc?export=view&id=124VPuqLiZ8jHBf132KxG2d-0-HDjyCxj");
-    background-size:cover;
-
-}
-
-
-
-#cont #con2 div:nth-child(6)
-{   
-    transform: rotateY(-90deg) translateZ(var(--wide2));
-    background:url("https://drive.google.com/uc?export=view&id=129xOxmFIeoTCFCCh_Kv3wGwppTgMZxDT");
-    background-size:cover;
-
-}
-
-
-@keyframes rotate
-{
-    0%{
-        transform:rotateX(0) rotateY(0);
-    }
-
-    10%{transform:rotateY(90deg);}
-    20%{transform:rotateY(180deg);}
-    30%{transform:rotateY(270deg);}
-    40%{transform:rotateY(360deg);}
-    50%{transform:rotateX(90deg);}
-    60%{transform:rotateX(270deg);}
-    70%{transform:rotateZ(45deg);}
-    80%{transform:rotateX(45deg);}
-    90%{transform:rotateY(45deg);}
-    100%{transform:rotateZ(360deg);}
-
-
-}
-
-
-
-#fam-img
-{
-    width:100%;
-    max-width:500px;
-    margin:auto;
-
-}
-
 .imgg
 {
     width:90%;
@@ -304,41 +198,6 @@ body{
     margin-right:auto;
     display:block;
 }
-/*
-#loader
-{
-    width:100vw;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:10px;
-    background:#1b1b1b;
-    z-index:9999999999;
-    position:fixed;
-    background:#fffafa;
-}
-
-#loader p
-{
-    font-weight: 900;
-    font-size:0;
-    background: url("https://drive.google.com/uc?export=view&id=1_B-3j9r6ybwtH3cdyFeoa3SdRZSjwCSQ") no-repeat scroll;
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation:as 11s infinite;
-    font-family:'Old Standard TT', 'Times New Roman',Times, serif;
-}*/
-
-@keyframes as{
-
-    50%
-    {
-        font-size:3.3rem;
-    }
-  }
 
 #t{
     font-size:22px;
@@ -346,28 +205,6 @@ body{
     margin:auto;
     background:red;
     font-family:'Old Standard TT', 'Times New Roman',Times, serif;
-}
-
-.playyy{transition:all .3s}
-
-.playyy:hover
-{
-    border:11px solid grey;
-
- }
-
-#img-top{
-  /*  width:200px;
-    height:200px;
-    object-fit:cover;
-    margin-bottom:5px; */
-    border-radius:50%;
-  /*  float:right;
-    margin-right:-3%;
-    margin-top:-3%; */
-    box-shadow:0 0 9px 1px rgba(0,0,0,0.7);
-    clear:both;
-    border:1px solid transparent;
 }
 
 </style>
@@ -463,53 +300,12 @@ and Wonder for, what it holds...</p> </div> </div> </div> </div> </div>
                 <div class="col-md-8"> 
                     <div class="card-body">
                         <h3 class="card-title">KHUshi...</h3> <p class="card-text">Khuda kare ke Khushi ke Chehre pe aor Khushi ki zindagi mein Apne naam ki tarha Khushi ho...</br>Uski muskura-hato se khushi jhalke, aor Uski zindagi khushiyon bhari ho...</p></div> </div> </div> </div> </div> 
-
-
-<div> <p onclick="playy(3)" id="t">Click me</p> </div>
-<div id="cont">
-    <div id="con2">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    </div>
-    </div>     
-    
-    
-    
-    
-    <div id="fam-img">
-            
-                <img src="https://drive.google.com/uc?export=view&id=12DMOkEQsYhUIdzflXenH9-CrBQr4MjCB" class="imgg">
-                
-                <img src="https://drive.google.com/uc?export=view&id=12DGiLPBTOrdEh20vVBm8rS7jY0gippFz" class="imgg">
-                
-                <img src="https://drive.google.com/uc?export=view&id=12EB7pS5HRQfgT30bd-4HaraJsATTOsUD" class="imgg">
-                
-                
-                <img src="https://drive.google.com/uc?export=view&id=12DTomeH2t1p4D5HewUNh0DKRk4JHIA9Q" class="imgg">
-                
-                <img src="https://drive.google.com/uc?export=view&id=12Cw4BAKyzR54hfup-b7M5BnBw8j6W2zt" class="imgg">
-                
-                
-            </div>
     
     
         <div id="end"><h1>T</h1><p>he End...</p></div>
         
         <audio style=" display:none;" loop class="pl"  >
     <source  src=" https://drive.google.com/uc?export=download&id=1RiEsjgBJO4MWP0l0GQsnz5ZvT_WpNsCH"></audio>
-    
-    <audio style=" display:none;" class="pl"  >
-    <source  src=" https://drive.google.com/uc?export=download&id=1Zq9aVq0sshqgyDbLdqm8pJ1Y9xUP2KgH"></audio>
-    
-    <audio style=" display:none;" class="pl" >
-    <source  src=" https://drive.google.com/uc?export=download&id=1Z27zk0E9IFBhDaySwHm1rrU_IVGOzdv1"></audio>
-    
-    <audio style=" display:none;" class="pl" >
-    <source  src=" https://drive.google.com/uc?export=download&id=1ZnoF-BtIst95AZK67qZ9rVXJ_kLaYJNV"></audio>
     
     </div></div>
     
